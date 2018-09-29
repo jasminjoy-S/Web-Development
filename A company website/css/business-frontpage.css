@@ -1,0 +1,147 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+body {
+
+  background:url('../img/sayagata-400px.png');
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  .business-header{
+      height:100vh;
+      padding:0
+  }
+  .prod_section {
+      height:100vh;
+      padding:0;
+  }
+}
+
+.navbar-dark .navbar-brand {
+    color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #f8f9fa;
+}
+
+.logo {
+    max-height: 30px;
+    max-width: 30px;
+
+}
+
+.nav-item{
+    padding-right: 3rem;
+}
+
+.business-header {
+  width:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.jumbotron {
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-color: #343a40;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+@media (max-width:991px){
+    .business-header {
+        margin-top: 5rem;
+    }
+    .jumbotron{
+        background-size: 40% 40%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .jumbotron .display-4{
+        font-size: 2.5rem;
+    }
+    .jumbotron .lead{
+        font-size: 1rem;
+    }
+
+}
+
+#myCarousel > .carousel-inner > .carousel-item > img {
+  margin: 0 auto;
+  height: 20rem;
+}
+
+.card {
+  height: 100%;
+  text-align: -webkit-center;
+}
+
+.prod_section{
+    padding-top:5rem;
+    height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.prod_section .container {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top:2%;
+    padding-bottom:5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.prod_section img{
+    height: 15rem;
+    width: auto;
+}
+
+.prod_section a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-align:left;
+    color: #FF5722;
+    font-size: 15px;
+}
+
+.contact_sect{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.contact_sect hr {
+    border-width: 0.15rem;
+}
+
+.contact_sect .card hr{
+    border-width: 0.15rem;
+    width: 8rem;
+}
+
+.table thead th{
+    border-bottom: none;
+}
+.table td, .table th{
+    padding: 0.15rem;
+    border:  none;
+}
+
+.tbody .mail_d {
+    word-wrap: break-word;
+    min-width: 160px;
+    max-width: 160px;
+}
